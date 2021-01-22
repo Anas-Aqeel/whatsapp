@@ -497,4 +497,8 @@
   .zmdi-icon{
       font-size: 2.3rem;
   }
-  
+  .dropdown-menu li a i{
+    margin-left: 0;
+    margin-right: 15px;
+    font-size: 1.7rem;
+  }
