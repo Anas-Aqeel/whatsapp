@@ -1,0 +1,213 @@
+<html>
+<head>
+	<title>Services</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container" id="show">
+      <div class="row main-row">
+        <div class="top-whatsapp">
+          <div class="brand col-md-6 pull-left">
+            <h3>WhatsApp</h3>
+          </div>
+          <div class="icons col-md-6">
+              <i class="zmdi zmdi-search"></i>
+              
+              
+                <i class="zmdi zmdi-more-vert dropdown-toggle" type="" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              
+
+
+            </div>
+            
+        </div>
+        <div class="whatssApp-med">
+          <div class="tabs">
+              <i class="zmdi zmdi-account zmdi-icon"></i>
+          </div>
+          <div class="tabs-selected">
+            All
+          </div>
+          <div class="tabs">
+            Read
+          </div>
+          <div class="tabs">
+            Unread
+          </div>
+        </div>
+      </div>
+      <div class="row chats">
+        <div class="chat" onclick="openGroup()">
+          <div class="col-md-3 chat-img">
+            <img src="https://image.ibb.co/m3TRpv/11809827_988086677880318_447799249_a.jpg" class="img-circle" />
+          </div>
+          <div class="col-md-9 chat-info">
+            <h5>Joody4U       
+              <small class="pull-right">5:24PM</small>
+            </h5>
+            <p><i class="fa fa-check"></i>  Hello Partners</p>
+          </div>
+        </div>
+          <div class="chat" onclick="openGroup()">
+          <div class="col-md-3 chat-img">
+            <img src="https://image.ibb.co/evGe9v/16730263_412115329154791_3908502583713388433_n.jpg" class="img-circle" />
+          </div>
+          <div class="col-md-9 chat-info">
+            <h5>Syrian Arts       
+              <small class="pull-right">7:00PM</small>
+            </h5>
+            <p>You Just Got Promoted !!</p>
+          </div>
+        </div>
+          <div class="chat" onclick="openGroup()">
+          <div class="col-md-3 chat-img">
+             <img src="https://preview.ibb.co/nyfLhF/generic_person.jpg" class="img-circle" />
+          </div>
+          <div class="col-md-9 chat-info">
+            <h5>Mohammed      
+              <small class="pull-right">9:15PM</small>
+            </h5>
+            <p><i class="fa fa-check"></i>  Be on your best , Lets Do it</p>
+          </div>
+        </div>
+         <div class="chat" onclick="openGroup()">
+          <div class="col-md-3 chat-img">
+             <img src="https://preview.ibb.co/nyfLhF/generic_person.jpg" class="img-circle" />
+          </div>
+          <div class="col-md-9 chat-info">
+            <h5>Girlfriend ... <i>I Dont really have one :(</i>       
+              <small class="pull-right">9:45PM</small>
+            </h5>
+            <p><i class="fa fa-check"></i>  I Love You , Good Night</p>
+          </div>
+        </div>
+         <div class="chat" onclick="openGroup()">
+          <div class="col-md-3 chat-img">
+             <img src="https://preview.ibb.co/nyfLhF/generic_person.jpg" class="img-circle" />
+          </div>
+          <div class="col-md-9 chat-info">
+            <h5>App Developer       
+              <small class="pull-right">10:05PM</small>
+            </h5>
+            <p><i class="fa fa-check"></i>  Great , Lets Meet on 11:00 PM</p>
+          </div>
+        </div>
+         <div class="chat" onclick="openGroup()">
+          <div class="col-md-3 chat-img">
+             <img src="https://preview.ibb.co/nyfLhF/generic_person.jpg" class="img-circle" />
+          </div>
+          <div class="col-md-9 chat-info">
+            <h5>Mother       
+              <small class="pull-right">11:45PM</small>
+            </h5>
+            <p><i class="fa fa-check"></i>  Love u too , Bye</p>
+          </div>
+        </div>
+         <div class="chat" onclick="openGroup()">
+          <div class="col-md-3 chat-img">
+             <img src="https://preview.ibb.co/nyfLhF/generic_person.jpg" class="img-circle" />
+          </div>
+          <div class="col-md-9 chat-info">
+            <h5>Taysser Ibahim       
+              <small class="pull-right">6:20AM</small>
+            </h5>
+            <p><i class="fa fa-check"></i>  Great , Do it .</p>
+          </div>
+        </div>
+            </div>
+    
+      </div>
+
+	<div class="page hide" id="chat">
+        <div class="marvel-device nexus5">
+          <div class="top-bar"></div>
+          <div class="sleep"></div>
+          <div class="volume"></div>
+          <div class="camera"></div>
+          <div class="screen">
+            <div class="screen-container">
+              <div class="chat-1">
+                <div class="chat-container">
+                    <div class="user-bar">
+                        <div class="back" onclick="goBack()">
+                          <i class="zmdi zmdi-arrow-left"></i>
+                        </div>
+                        <div class="avatar">
+                          <img src="https://i.ibb.co/2Yg7tWv/Rumbiiha-Swaibu.jpg" alt="Avatar">
+                        </div>
+                        <div class="name">
+                          <span>Rumbiiha s.</span>
+                          <span class="status">online</span>
+                        </div>
+                        <div class="actions more">
+                          <i class="zmdi zmdi-more-vert"></i>
+                        </div>
+                        <div class="actions attachment">
+                            <i class="zmdi zmdi-format-clear-all"></i>
+                        </div>
+                        <div class="actions">
+                            <i class="zmdi zmdi-account"></i>             
+                        </div>
+                      </div>
+                  <div class="conversation">
+                    <div class="conversation-container">
+                    </div>
+                    <form class="conversation-compose">
+                      <div class="emoji">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="smiley" x="3147" y="3209"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.153 11.603c.795 0 1.44-.88 1.44-1.962s-.645-1.96-1.44-1.96c-.795 0-1.44.88-1.44 1.96s.645 1.965 1.44 1.965zM5.95 12.965c-.027-.307-.132 5.218 6.062 5.55 6.066-.25 6.066-5.55 6.066-5.55-6.078 1.416-12.13 0-12.13 0zm11.362 1.108s-.67 1.96-5.05 1.96c-3.506 0-5.39-1.165-5.608-1.96 0 0 5.912 1.055 10.658 0zM11.804 1.01C5.61 1.01.978 6.034.978 12.23s4.826 10.76 11.02 10.76S23.02 18.424 23.02 12.23c0-6.197-5.02-11.22-11.216-11.22zM12 21.355c-5.273 0-9.38-3.886-9.38-9.16 0-5.272 3.94-9.547 9.214-9.547a9.548 9.548 0 0 1 9.548 9.548c0 5.272-4.11 9.16-9.382 9.16zm3.108-9.75c.795 0 1.44-.88 1.44-1.963s-.645-1.96-1.44-1.96c-.795 0-1.44.878-1.44 1.96s.645 1.963 1.44 1.963z" fill="#7d8489"/></svg>
+                      </div>
+                      <input class="input-msg" id="input" placeholder="Type a message.." autocomplete="off" autofocus>
+                      <div class="photo">
+                        <img src="https://i.ibb.co/zNL2yg0/ib-attach.png" alt="" width="25" height="25">
+                        <img src="https://i.ibb.co/vHXYtHF/ib-camera.png" alt="" width="25" height="25">
+                      </div>
+                      <button class="send" type="button" onclick="sendMsg()">
+                          <div class="circle">
+                            <i class="zmdi zmdi-mail-send"></i>
+                          </div>
+                        </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+
+<script src="app.js"></script> 
+<script src="app1.js"></script> 
+</html>
